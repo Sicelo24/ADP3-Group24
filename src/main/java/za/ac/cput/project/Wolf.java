@@ -10,7 +10,7 @@ public class Wolf {
         this.height = height;
     }
 
-    public String getSpeciesRegion(String breed){
+    public String getSpeciesRegion(){
         if (breed.isEmpty()) return "No data";
         switch(breed){
             case "Reddie":
@@ -23,7 +23,7 @@ public class Wolf {
         }
     }
 
-    public int beautyLevel(String color){
+    public int beautyLevel(){
         if (color.isEmpty()) return 0;
         switch(color){
             case "Red":
