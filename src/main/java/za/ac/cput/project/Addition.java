@@ -2,9 +2,16 @@ package za.ac.cput.project;
 
 public class Addition {
 
-    public void main (String[] args){
-
-        System.out.println("This is addition class");
+    public static int addTwoNumbers(int firstNum, int secondNum)
+    {
+        int sum = firstNum+ secondNum;
+        return sum;
     }
 
-}
+
+
+   }
+
+
+
+
