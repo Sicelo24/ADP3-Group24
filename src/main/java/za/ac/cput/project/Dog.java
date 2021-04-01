@@ -1,20 +1,17 @@
-//*
-//Name:Avuyile
-//Surname:Xozumthi
-//Student Number:218331827
-//Date:31 March 2021
-//*
 package za.ac.cput.project;
+
+/* 217290671 - Tashreeq Williams */
+
 import java.util.Objects;
 
-public class horse {
+public class Dog {
 
     private String breed;
-    private int speed;
+    private int height;
 
-    public horse(String breed, int speed){
+    public Dog(String breed, int height){
         this.setBreed(breed);
-        this.setSpeed(speed);
+        this.setHeight(height);
     }
 
     public String getBreed() {
@@ -25,24 +22,24 @@ public class horse {
         this.breed = breed;
     }
 
-    public int getSpeed() {
-        return speed;
+    public int getHeight() {
+        return height;
     }
 
-    public void setSpeed(int speed) {
-        this.speed = speed;
+    public void setHeight(int height) {
+        this.height = height;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        horse horse = (horse) o;
-        return speed == horse.speed && Objects.equals(breed, horse.breed);
+        Dog dog = (Dog) o;
+        return height == dog.height && Objects.equals(breed, dog.breed);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(breed, speed);
+        return Objects.hash(breed, height);
     }
 }
