@@ -26,5 +26,6 @@ class Division {
             result = Double.valueOf(num1) / Double.valueOf(num2);
         }
         return result;
+
     }
 }
