@@ -1,3 +1,7 @@
+/**
+ * WolfTest Class
+ * author: Athenkosi Zono 218030185
+ **/
 package za.ac.cput.project;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -22,8 +26,8 @@ class WolfTest {
 
     @Test
     void testEquality(){
-        //This test will Pass - object equality - wolfR == wolfR
-        assertEquals(wolfR, wolfR);
+        //This test will Pass - object equality - wolfR.beautyLevel() == wolfZ.beautyLevel()
+        assertEquals(wolfR.beautyLevel(), wolfZ.beautyLevel());
     }
 
     @Test

@@ -1,3 +1,7 @@
+/**
+ * Wolf Class
+ * author: Athenkosi Zono 218030185
+ **/
 package za.ac.cput.project;
 
 public class Wolf {
