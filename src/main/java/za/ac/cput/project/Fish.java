@@ -4,9 +4,7 @@
 //Student Number:216140943
 //Date:1 April 2021
 //*
-
 package za.ac.cput.project;
-
 import java.util.Objects;
 
 public class Fish {
@@ -41,13 +39,10 @@ public class Fish {
         this.fishLength = fishLength;
     }
 
-    public String fishSize(double fishLength){
+    public String fishSize(double fishLength) {
         if (fishLength < 7.5) return "Small Fish";
         else if (fishLength < 14.7) return "Medium Fish";
         else if (fishLength <= 28.8) return "Large Fish";
         else return "Can't be sized";
     }
-
-
-
 }
